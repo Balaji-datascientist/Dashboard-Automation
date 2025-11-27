@@ -1,0 +1,42 @@
+{
+  "name": "PLUGS Electronics Sales Dashboard v1.0",
+  "dev_workbook_id": "plugs-electronics-hands-on-dashboard-2qCfEjJI3F0oDmM13uTMQW",
+
+  "metadata": {
+    "created_by": "automation",
+    "environment": "DEV",
+    "source_workspace": "kalpitha-tech"
+  },
+
+  "sources": [
+    {
+      "type": "data_model",
+      "model_name": "PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA",
+      "model_id": "plug-electronics-data-model-2bKb3kNXxGDcn6WYHDmMFs",
+      "connection_name": "Snowflake - Sigma Sample Database",
+      "database": "RETAIL",
+      "schema": "PLUGS_ELECTRONICS",
+      "tables": [
+        {
+          "table_name": "PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA",
+          "table_id": "PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA-3LvNgMTqcahWg96n3nmG1G"
+        }
+      ]
+    }
+  ],
+
+  "swap_mappings": {
+    "dev": {
+      "connection_id": "conn_DEV_PLACEHOLDER",
+      "schema_mapping": "RETAIL.PLUGS_ELECTRONICS"
+    },
+    "qa": {
+      "connection_id": "conn_QA_PLACEHOLDER",
+      "schema_mapping": "RETAIL.PLUGS_ELECTRONICS"
+    },
+    "prod": {
+      "connection_id": "conn_PROD_PLACEHOLDER",
+      "schema_mapping": "RETAIL.PLUGS_ELECTRONICS"
+    }
+  }
+}
