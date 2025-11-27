@@ -30,8 +30,8 @@
       "connection_id": "conn_DEV_PLACEHOLDER",
       "schema_mapping": "RETAIL.PLUGS_ELECTRONICS"
     },
-    "qa": {
-      "connection_id": "conn_QA_PLACEHOLDER",
+    "uat": {
+      "connection_id": "conn_uat_PLACEHOLDER",
       "schema_mapping": "RETAIL.PLUGS_ELECTRONICS"
     },
     "prod": {
